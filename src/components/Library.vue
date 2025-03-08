@@ -1,7 +1,7 @@
 <script setup lang="ts">
     import type { Album } from '../scripts/types';
     import Card from "./Card.vue";
-    import { filteredAlbums, albums, updateAlbum } from "../repository/AlbumsRepository";
+    import { filteredAlbums, updateAlbum } from "../repository/AlbumsRepository";
 
     function updateCard(update: Album){
         updateAlbum(update.id, update)

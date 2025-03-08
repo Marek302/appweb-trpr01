@@ -36,7 +36,7 @@
 
 </script>
 <template>
-    <div class="card p-4" style="width: 22rem; height: 26rem; background-color: #1d1a21;">
+    <div class="card p-4" style="width: 22rem; height: 28rem; background-color: #1d1a21;">
         <div class="row">
             <div class="col-auto" style="width: 110px;">
                 <p style="font-size: 1.3rem;" class="text-start text-light me-0">Album:</p>

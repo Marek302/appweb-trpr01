@@ -41,7 +41,7 @@ const isAddingAlbum = ref(false);
   </div>
   
   <div class="d-flex justify-content-center">
-    <Library/>
+    <Library />
   </div>
 </template>
 

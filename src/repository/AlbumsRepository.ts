@@ -41,7 +41,70 @@ export const albums = ref<Album[]>([
         style: "R&B",
         price: 20.00,
         stock: 2
-    }
+    },
+    {
+        id: assignId(),
+        name: "Igor",
+        imageUrl: "https://i.scdn.co/image/ab67616d00001e027005885df706891a3c182a57",
+        artist: "Tyler, The Creator",
+        style: "Hip-Hop",
+        price: 20.00,
+        stock: 2
+    },
+    {
+        id: assignId(),
+        name: "I Robot",
+        imageUrl: "https://i.scdn.co/image/ab67616d00001e02a20cc321ff5017259984266b",
+        artist: "The Alan Parsons Project",
+        style: "Rock",
+        price: 20.00,
+        stock: 2
+    },
+    {
+        id: assignId(),
+        name: "The Black Parade",
+        imageUrl: "https://i.scdn.co/image/ab67616d00001e0217f77fab7e8f18d5f9fee4a1",
+        artist: "My Chemical Romance",
+        style: "Rock",
+        price: 20.00,
+        stock: 2 
+    },
+    {
+        id: assignId(),
+        name: "Imaginal Disk",
+        imageUrl: "https://i.scdn.co/image/ab67616d00001e025a2ff617de4e51a9a214b56a",
+        artist: "Magdalena Bay",
+        style: "Pop",
+        price: 20.00,
+        stock: 2 
+    },
+    {
+        id: assignId(),
+        name: "OK Computer",
+        imageUrl: "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+        artist: "Radiohead",
+        style: "Rock",
+        price: 20.00,
+        stock: 2 
+    },
+    {
+        id: assignId(),
+        name: "Breakfast in America",
+        imageUrl: "https://i.scdn.co/image/ab67616d00001e023032e8ae4b5939201d77277f",
+        artist: "Supertramp",
+        style: "Rock",
+        price: 20.00,
+        stock: 2 
+    },
+    {
+        id: assignId(),
+        name: "2001",
+        imageUrl: "https://i.scdn.co/image/ab67616d00001e029b19c107109de740bad72df5",
+        artist: "Dr. Dre",
+        style: "Hip-Hop",
+        price: 20.00,
+        stock: 2 
+    },
 ]);
 
 export function duplicateAlbum(album: Album){

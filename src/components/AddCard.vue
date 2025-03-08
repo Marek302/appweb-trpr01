@@ -98,7 +98,7 @@
                 <input v-model="album.stock" type="text" class="form-control text-start bg-dark text-light" id="stock" placeholder="Stock">
             </div>
         </div>
-        <div class="text-center">
+        <div>
             <button type="button" class="btn btn-success btn-lg mt-3" style="height: 45px; width: 180px; background-color: #1fe700;" @click="addCard">Ajouter</button>
         </div>
     </div>

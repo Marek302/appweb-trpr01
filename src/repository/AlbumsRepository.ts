@@ -131,9 +131,10 @@ export function updateAlbum(id: number, updatedAlbum: Album){
         album.imageUrl = updatedAlbum.imageUrl
         album.price = updatedAlbum.price
         album.style = updatedAlbum.style
-      } else {
+    } 
+    else {
         console.log("Album not found");
-      }
+    }
     refresh()
 }
 

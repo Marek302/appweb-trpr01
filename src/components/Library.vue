@@ -9,10 +9,10 @@
 
 </script>
 <template>
-    <div class="container-fluid mt-4 d-flex justify-content-center">
-        <div class="row d-flex justify-content-center flex-wrap">
-            <div v-for="album in filteredAlbums" :key="album.id" class="col-md-3 mb-4 ms-2 me-2">
-                <div style="width: 18rem;">
+    <div class="d-flex justify-content-center mt-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 d-flex justify-content-around" style="max-width: fit-content; width: 100%; justify-content: center; flex-wrap: wrap;">
+            <div v-for="album in filteredAlbums" :key="album.id" class="col-auto d-flex justify-content-center lign-items-center">
+                <div>
                     <Card :album="album" @album-update="updateCard"/>
                 </div>
             </div>

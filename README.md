@@ -9,5 +9,3 @@ tirés du code sur lequel je travaillais.
 - Site Web Git Pages: https://Marek302.github.io/appweb-trpr01/
 
 ============================================================================================
-*aucune limitations, restrictions ou contraintes n'ont été mises sur l'ajout ou la modification d'album (url de l'image, titre, ect) car la musique étant un mouvement artistique, il ne doit
-y avoir aucunes limitations.
